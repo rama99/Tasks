@@ -1,0 +1,1 @@
+This is  a sample MEAN 2 application..
