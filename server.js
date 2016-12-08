@@ -23,6 +23,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/' , index);
 app.use('/api' , tasks);
 
-app.listen(3000, function() {
+app.listen(process.env.PORT || 5000, function() {
 console.log('server started on port 3000');
 });
